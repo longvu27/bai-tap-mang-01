@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let mang = [-5,-4,-3,-2,-1,1,2,3,4,5];
+  let a = prompt ('nhập số');
+  for (let i=0; i<mang.length; i++) {
+    if (mang[i]==a) {
+        mang.splice(i,1);
+    }
+  }document.write(mang);
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [1,2,3,4,5,6,7,8,9];
+    let max = mang[0];
+    let vitri = 0;
+    let tong=0;
+
+    for (let i=0; i<mang.length; i++) {
+        if (mang[i]>max) {
+            max = mang[i];
+            vitri=i;
+        }
+        tong= tong + mang[i];
+    }document.write('giá trị lớn nhất là '+ max+'vị trí của nó là '+''+ vitri +'<br>');
+    document.write('giá trị trung bình là '+ tong/(mang.length));
+</script>
+</body>
+</html>
